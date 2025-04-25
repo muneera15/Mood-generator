@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI',sans-serif;
+    background-color: #fefefe;
+    margin:auto;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:auto;
+}
+h1{
+    color: rgb(164, 16, 16);
+}
+select{
+    border: none;
+    color: rgb(66, 4, 25);
+    display: none;
+}
+*:hover select{
+    display :block;
+}
+#output{
+    margin-top:30px;
+    align-items: center;
+}
+#quote{
+    text-align: center;
+}
+#image{
+    max-width : 40%;
+    height:auto;
+}
+#music{
+    max-width:40%;
+    height:auto;
+}
+.happy{
+    background-color: #e9d85b;
+}
+.sad{
+    background-color: #d92323;
+}
+.lazy{
+    background-color:#0e0202 ;
+}
+.energetic{
+    background-color: #23a6ca ;
+}
