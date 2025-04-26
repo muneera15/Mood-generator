@@ -3,7 +3,9 @@ body{
     background-color: #fefefe;
     margin:auto;
 }
-
+h3{
+    color:rgb(66, 4, 25);
+}
 #container{
     display: flex;
     flex-direction: column;
@@ -51,14 +53,14 @@ select{
     border-radius: 12px;
 }
 .happy{
-    background-color: #e9d85b;
+    background-color: #FFF9C4;
 }
 .sad{
-    background-color: #d92323;
+    background-color: #BBDEFB;
 }
 .lazy{
-    background-color:#0e0202 ;
+    background-color:#e0e0e0b7 ;
 }
 .energetic{
-    background-color: #23a6ca ;
+    background-color: #f35c26 ;
 }
