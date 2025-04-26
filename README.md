@@ -1,5 +1,4 @@
-Mood-Based Motivation App
-Let your mood decide your motivation. 🌟
+Mood-generator (Let your mood decide your motivation. 🌟)
 
 A simple web project that changes background images, quotes, and styles based on the user's selected mood — built with HTML, CSS, and JavaScript.
 
@@ -47,3 +46,6 @@ Mood-generator/
 ├── style.css
 ├── script.js
 └── README.md
+
+Preview
+https://mood-generator.netlify.app/
