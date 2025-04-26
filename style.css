@@ -6,6 +6,12 @@ body{
 h3{
     color:rgb(66, 4, 25);
 }
+#logo{
+    font-family: "Segoe UI", sans-serif; 
+    color: rgb(132, 8, 8); 
+    font-weight: bold;
+    height: 60px;
+}
 #container{
     display: flex;
     flex-direction: column;
