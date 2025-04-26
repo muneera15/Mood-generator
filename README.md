@@ -1,4 +1,6 @@
 Mood-Based Motivation App
+Let your mood decide your motivation. 🌟
+
 A simple web project that changes background images, quotes, and styles based on the user's selected mood — built with HTML, CSS, and JavaScript.
 
 * Features
@@ -22,13 +24,13 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/mood-motivation-app.git
+git clone https://github.com/muneera15/Mood-generator.git
 
 Navigate into the project folder:
 bash
 Copy
 Edit
-cd mood-motivation-app
+cd Mood-generator
 
 Open index.html directly in your browser!
 No setup needed — it's pure frontend!
@@ -37,7 +39,7 @@ No setup needed — it's pure frontend!
 bash
 Copy
 Edit
-mood-motivation-app/
+Mood-generator/
 ├── assets/
 │   ├── images/         # Mood images
 │   └── screenshots/    # Demo screenshots
