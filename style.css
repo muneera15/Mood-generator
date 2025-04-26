@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin:0;
     height:100%;
+    position:sticky;
 }
 
 h3 {
@@ -20,7 +21,6 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: auto;
 }
 
 h1 {
@@ -75,10 +75,9 @@ select{
 }
 
 #image {
-    width: 70%;
+    width: 50%;
     max-height: 150px;
     border-radius: 12px;
-    object-fit: contain;
 }
 
 #music iframe {
