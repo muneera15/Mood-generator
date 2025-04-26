@@ -30,7 +30,7 @@ select{
     display :block;
 }
 #output{
-    margin-top:30px;
+    margin-top:0px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ select{
 }
 #image{
     width : 50%;
-    height:auto;
+    max-height: 200px;
     border-radius: 12px;
 }
 #music iframe{
