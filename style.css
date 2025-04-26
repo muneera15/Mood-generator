@@ -1,26 +1,39 @@
-body{
-    font-family: 'Segoe UI',sans-serif;
+body {
+    font-family: 'Segoe UI', sans-serif;
     background-color: #fefefe;
-    margin:auto;
+    padding: 0;
+    margin:0;
+    height:100%;
 }
-h3{
-    color:rgb(66, 4, 25);
+
+h3 {
+    color: rgb(66, 4, 25);
 }
-#logo{
-    font-family: "Segoe UI", sans-serif; 
-    color: rgb(132, 8, 8); 
+
+#logo {
     font-weight: bold;
+    color: rgb(132, 8, 8);
     height: 60px;
 }
-#container{
+
+#container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:auto;
+    margin-top: auto;
 }
-h1{
+
+h1 {
     color: rgb(164, 16, 16);
+    text-align: center;
 }
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
 select{
     border: none;
     color: rgb(66, 4, 25);
@@ -29,44 +42,65 @@ select{
 *:hover select{
     display :block;
 }
-#output{
-    margin-top:0px;
-    align-items: center;
+
+#output {
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-#media-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    max-width: 60%;
+    padding: 0 10px;
 }
-#quote{
+
+#quote {
     text-align: center;
+    margin: 20px auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 90%;
 }
-#image{
-    width : 50%;
+
+@media (max-width: 600px) {
+    #quote {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+}
+
+#media-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#image {
+    width: 70%;
+    max-height: 150px;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+#music iframe {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
     max-height: 200px;
     border-radius: 12px;
 }
-#music iframe{
-    margin-top: 20px;
-    width: 400px;
-    height : 200px;
-    overflow: hidden;
-    border-radius: 12px;
-}
-.happy{
+
+.happy {
     background-color: #FFF9C4;
 }
-.sad{
+
+.sad {
     background-color: #BBDEFB;
 }
-.lazy{
-    background-color:#e0e0e0b7 ;
+
+.lazy {
+    background-color: #e0e0e0b7;
 }
-.energetic{
-    background-color: #f35c26 ;
+
+.energetic {
+    background-color: #f35c26;
 }
